@@ -1,0 +1,699 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: #191923; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #f8f8fa; }
+
+.u-display-row {
+  display: flex;
+  flex-direction: row; }
+
+.u-display-column {
+  display: flex;
+  flex-direction: column; }
+
+.u-center-center {
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.basicInformation {
+  height: 35vh;
+  width: 20vw;
+  background-color: #242430;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh; }
+  .basicInformation--profileName {
+    font-size: 15px;
+    color: #f8f8fa;
+    padding: 10px 0; }
+  .basicInformation--profileOccupation {
+    font-size: 12.5px;
+    color: #737378; }
+
+.actualPhoto {
+  height: 12.5vh;
+  width: 12.5vh;
+  background-image: url(/Images/SiddharthGhosh.jpg);
+  background-size: 12.5vh;
+  border-radius: 4.5rem;
+  justify-content: flex-end; }
+  .actualPhoto__onlineElement {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #ffc107;
+    border-radius: 10px;
+    transform: translate(35px, 65px);
+    z-index: 0; }
+    .actualPhoto__onlineElement:hover {
+      box-shadow: 0 0 10px 5px white; }
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #f8f8fa; }
+
+a:hover {
+  color: #20202a;
+  text-decoration: underline; }
+
+.spanDiv {
+  background-color: transparent;
+  border: 2px solid #f8f8fa;
+  color: #f8f8fa; }
+  .spanDiv:hover {
+    background-color: #f8f8fa;
+    border: 2px solid #20202a;
+    color: #20202a; }
+
+.checkmarkSkillDiv {
+  background-color: #20202a;
+  height: 25vh;
+  width: 20vw;
+  font-family: "Source Code Pro", monospace;
+  font-size: 12.5px;
+  justify-content: space-around;
+  align-items: center; }
+  .checkmarkSkillDiv__textDiv {
+    padding: 3vh;
+    background-color: #20202a;
+    height: 5vh;
+    width: 20vw;
+    justify-content: start;
+    align-items: center;
+    font-family: "Source Code Pro", monospace;
+    font-size: 12.5px; }
+  .checkmarkSkillDiv__setA {
+    background-color: #20202a;
+    height: 4vh;
+    width: 20vw;
+    justify-content: flex-start;
+    align-items: center; }
+    .checkmarkSkillDiv__setA__checkDiv {
+      color: #ffc107;
+      height: 4vh;
+      width: 4vw;
+      font-size: 19.5px; }
+    .checkmarkSkillDiv__setA__qualityDiv {
+      background-color: #20202a;
+      color: #f8f8fa;
+      height: 4vh;
+      width: 14vw; }
+
+.downloadCV {
+  background-color: #20202a;
+  height: 6vh;
+  width: 20vw; }
+  .downloadCV__setA {
+    background-color: #20202a;
+    height: 6vh;
+    width: 15vw; }
+    .downloadCV__setA:hover > .downloadCV__setA--div1 {
+      color: #f8f8fa; }
+    .downloadCV__setA:hover > .downloadCV__setA--div2 {
+      background-color: #f8f8fa; }
+    .downloadCV__setA--div1 {
+      background-color: #20202a;
+      color: #737378;
+      font-family: "Source Code Pro", monospace;
+      font-size: 12.5px;
+      height: 6vh;
+      width: 8vw;
+      align-items: center;
+      text-transform: capitalize; }
+    .downloadCV__setA--div2 {
+      background-color: #20202a;
+      border-radius: 1vh;
+      height: 5vh;
+      width: 2.5vw; }
+
+.elaboratedSkillDiv01 {
+  height: 50vh;
+  width: 69vw;
+  justify-content: space-evenly;
+  padding-top: 10px; }
+  .elaboratedSkillDiv01--set {
+    height: 31vh;
+    width: 20vw; }
+    .elaboratedSkillDiv01--set--name {
+      background-color: #242430;
+      color: #f8f8fa;
+      font-family: "Source Code Pro", monospace;
+      font-size: 17.5px;
+      height: 4vh;
+      width: 18vw;
+      padding-left: 20px;
+      padding-top: 20px; }
+    .elaboratedSkillDiv01--set--desc {
+      background-color: #242430;
+      color: #f8f8fa;
+      font-size: 15px;
+      font-family: "Source Code Pro", monospace;
+      height: 40vh;
+      width: 18vw;
+      padding-left: 20px;
+      padding-top: 20px; }
+
+.footer {
+  height: 10vh;
+  width: 69vw; }
+  .footer__set1 {
+    font-size: 12.5px;
+    font-family: "Source Code Pro", monospace;
+    height: 5vh;
+    width: 64vw;
+    background-color: #242430;
+    color: #f8f8fa;
+    justify-content: space-between;
+    align-items: center; }
+    .footer__set1--div1 {
+      padding-left: 1vw; }
+    .footer__set1--div2 {
+      padding-right: 1vw; }
+
+.introduction {
+  background-color: transparent;
+  height: 45vh;
+  width: 69vw;
+  justify-content: end;
+  align-items: center;
+  position: static;
+  z-index: 1; }
+  .introduction--div1 {
+    background-color: #1f1e28;
+    height: 4vh;
+    width: 59vw; }
+  .introduction--div2 {
+    background-image: url(/Images/image01.jpg);
+    filter: contrast(0.8);
+    background-size: 150vh;
+    background-size: cover;
+    background-position: top;
+    border-top-left-radius: 9vh;
+    display: flex;
+    flex-direction: column;
+    height: 36vh;
+    width: 64vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 3; }
+    .introduction--div2--primaryLine {
+      color: #ffc107;
+      font-family: "Press Start 2P", cursive;
+      font-size: 25px;
+      height: 7vh;
+      width: 57.5vw;
+      z-index: 4; }
+    .introduction--div2--secondaryLine {
+      color: #f8f8fa;
+      font-family: "Source Code Pro", monospace;
+      height: 5vh;
+      width: 57vw;
+      z-index: 10; }
+    .introduction--div2--heroImage {
+      background-image: url(/Images/coder.gif);
+      filter: brightness(0.5);
+      background-size: 25vh;
+      background-repeat: no-repeat;
+      height: 27vh;
+      width: 15vw;
+      border-radius: 7vh;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      z-index: 10; }
+
+.linearSkillDiv {
+  background-color: #20202a;
+  border-top: 2px solid #737378;
+  height: 30vh;
+  width: 20vw;
+  font-size: 15px;
+  justify-content: space-evenly;
+  padding: 0 1vw;
+  z-index: 5; }
+  .linearSkillDiv--textDiv {
+    height: 5vh;
+    width: 20vw;
+    color: #f8f8fa;
+    font-family: "Source Code Pro", monospace;
+    font-size: 12.5px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2vh; }
+  .linearSkillDiv--linearSkillDisplay {
+    background-color: #20202a;
+    height: 5vh;
+    width: 20vw;
+    padding: 0;
+    z-index: 0; }
+    .linearSkillDiv--linearSkillDisplay__skill01 {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 18vw; }
+      .linearSkillDiv--linearSkillDisplay__skill01:hover .skillBar021 {
+        opacity: 1;
+        transform: translateY(-0.5vh);
+        width: 16vw;
+        z-index: 1; }
+      .linearSkillDiv--linearSkillDisplay__skill01:hover .skillBar022 {
+        opacity: 1;
+        transform: translateY(-0.5vh);
+        width: 16vw;
+        z-index: 1; }
+      .linearSkillDiv--linearSkillDisplay__skill01:hover .skillBar023 {
+        opacity: 1;
+        transform: translateY(-0.5vh);
+        width: 14vw;
+        z-index: 1; }
+      .linearSkillDiv--linearSkillDisplay__skill01:hover .skillBar024 {
+        opacity: 1;
+        transform: translateY(-0.5vh);
+        width: 11vw;
+        z-index: 1; }
+      .linearSkillDiv--linearSkillDisplay__skill01:hover .skillBar025 {
+        opacity: 1;
+        transform: translateY(-0.5vh);
+        width: 9vw;
+        z-index: 1; }
+
+.skillName {
+  font-family: "Source Code Pro", monospace;
+  font-size: 12.5px;
+  height: 3.5vh;
+  width: 8vw;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  color: #f8f8fa; }
+
+.skillLevel {
+  font-family: "Source Code Pro", monospace;
+  font-size: 12.5px;
+  align-items: center;
+  height: 3.5vh;
+  width: 8vw;
+  justify-content: flex-end;
+  text-align: center;
+  color: #737378;
+  text-align: end; }
+
+.skillBar01 {
+  background-color: #20202a;
+  height: 0.5vh;
+  width: 20vw;
+  z-index: 0; }
+
+.skillBar021 {
+  background-color: #ffc107;
+  height: 0.5vh;
+  width: 1vw;
+  transform: translateY(-0.5vh);
+  opacity: 1;
+  z-index: 1;
+  transition: all 0.5s; }
+
+.skillBar022 {
+  background-color: #ffc107;
+  height: 0.5vh;
+  width: 1vw;
+  transform: translateY(-0.5vh);
+  opacity: 1;
+  z-index: 1;
+  transition: all 0.5s; }
+
+.skillBar023 {
+  background-color: #ffc107;
+  height: 0.5vh;
+  width: 1vw;
+  transform: translateY(-0.5vh);
+  opacity: 1;
+  z-index: 1;
+  transition: all 0.5s; }
+
+.skillBar024 {
+  background-color: #ffc107;
+  height: 0.5vh;
+  width: 1vw;
+  transform: translateY(-0.5vh);
+  opacity: 1;
+  z-index: 1;
+  transition: all 0.5s; }
+
+.skillBar025 {
+  background-color: #ffc107;
+  height: 0.5vh;
+  width: 1vw;
+  transform: translateY(-0.5vh);
+  opacity: 1;
+  z-index: 1;
+  transition: all 0.5s; }
+
+.links {
+  background-color: #242430;
+  height: 8.5vh;
+  width: 20vw; }
+  .links__setA {
+    height: 8.5vh;
+    width: 20vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; }
+    .links__setA--div1 {
+      background-color: #242430;
+      border-radius: 1vh;
+      height: 5vh;
+      width: 2.5vw; }
+      .links__setA--div1:hover {
+        background-color: #f8f8fa; }
+    .links__setA--div2 {
+      background-color: #242430;
+      border-radius: 1vh;
+      height: 5vh;
+      width: 2.5vw; }
+      .links__setA--div2:hover {
+        background-color: #f8f8fa; }
+    .links__setA--div3 {
+      background-color: #242430;
+      border-radius: 1vh;
+      height: 5vh;
+      width: 2.5vw; }
+      .links__setA--div3:hover {
+        background-color: #f8f8fa; }
+    .links__setA--div4 {
+      background-color: #242430;
+      border-radius: 1vh;
+      height: 5vh;
+      width: 2.5vw; }
+      .links__setA--div4:hover {
+        background-color: #f8f8fa; }
+    .links__setA--div5 {
+      background-color: #242430;
+      border-radius: 1vh;
+      height: 5vh;
+      width: 2.5vw; }
+      .links__setA--div5:hover {
+        background-color: #f8f8fa; }
+
+.logo {
+  height: 3vh;
+  width: 1.5vw; }
+
+.radialSkillDiv {
+  background-color: #20202a;
+  font-family: "Source Code Pro", monospace;
+  height: 21.5vh;
+  width: 20vw;
+  justify-content: space-evenly; }
+  .radialSkillDiv--textDiv {
+    background-color: #20202a;
+    border-top: 2px solid #737378;
+    padding-left: 3vh;
+    font-size: 12.5px;
+    height: 10vh;
+    width: 20vw;
+    justify-content: flex-start;
+    align-items: center; }
+  .radialSkillDiv--setA {
+    background-color: #20202a;
+    font-size: 12.5px;
+    height: 10vh;
+    width: 20vw;
+    justify-content: space-evenly;
+    align-items: center; }
+    .radialSkillDiv--setA__div1 {
+      background-color: #20202a;
+      height: 10vh;
+      width: 5vw;
+      justify-content: center;
+      align-items: start;
+      flex-wrap: wrap; }
+      .radialSkillDiv--setA__div1:hover > .radialSkillDiv--setA__div1--element1 {
+        background-image: linear-gradient(90deg, #20202a 50%, transparent 50%), linear-gradient(-63deg, #20202a 50%, #ffc107 50%); }
+      .radialSkillDiv--setA__div1--text1 {
+        color: #737378;
+        height: 2vh;
+        width: 4vw; }
+      .radialSkillDiv--setA__div1--element1 {
+        background-image: linear-gradient(90deg, #191923 50%, transparent 50%), linear-gradient(-75deg, #191923 50%, #ffc107 50%);
+        border-radius: 4vh;
+        height: 7vh;
+        width: 3.5vw; }
+        .radialSkillDiv--setA__div1--element1__element2 {
+          background-color: #20202a;
+          border-radius: 3vh;
+          height: 6vh;
+          width: 3vw; }
+          .radialSkillDiv--setA__div1--element1__element2__element3 {
+            background-color: #20202a;
+            color: #f8f8fa;
+            height: 4vh;
+            width: 2vw; }
+    .radialSkillDiv--setA__div2 {
+      background-color: #20202a;
+      height: 10vh;
+      width: 5vw;
+      justify-content: center;
+      align-items: start;
+      flex-wrap: wrap; }
+      .radialSkillDiv--setA__div2:hover > .radialSkillDiv--setA__div2--element1 {
+        background-image: linear-gradient(90deg, transparent 50%, #ffc107 50%), linear-gradient(234deg, transparent 50%, #ffc107 50%); }
+      .radialSkillDiv--setA__div2--text1 {
+        color: #737378;
+        height: 2vh;
+        width: 4vw; }
+      .radialSkillDiv--setA__div2--element1 {
+        background-image: linear-gradient(90deg, #191923 50%, transparent 50%), linear-gradient(-75deg, #191923 50%, #ffc107 50%);
+        border-radius: 4vh;
+        height: 7vh;
+        width: 3.5vw; }
+        .radialSkillDiv--setA__div2--element1__element2 {
+          background-color: #20202a;
+          border-radius: 3vh;
+          height: 6vh;
+          width: 3vw; }
+          .radialSkillDiv--setA__div2--element1__element2__element3 {
+            background-color: #20202a;
+            color: #f8f8fa;
+            height: 4vh;
+            width: 2vw; }
+    .radialSkillDiv--setA__div3 {
+      background-color: #20202a;
+      height: 10vh;
+      width: 5vw;
+      justify-content: center;
+      align-items: start;
+      flex-wrap: wrap; }
+      .radialSkillDiv--setA__div3:hover > .radialSkillDiv--setA__div3--element1 {
+        background-image: linear-gradient(90deg, #20202a 50%, transparent 50%), linear-gradient(-81deg, #20202a 50%, #ffc107 50%); }
+      .radialSkillDiv--setA__div3--text1 {
+        color: #737378;
+        height: 2vh;
+        width: 4vw; }
+      .radialSkillDiv--setA__div3--element1 {
+        background-image: linear-gradient(90deg, #191923 50%, transparent 50%), linear-gradient(-75deg, #191923 50%, #ffc107 50%);
+        border-radius: 4vh;
+        height: 7vh;
+        width: 3.5vw; }
+        .radialSkillDiv--setA__div3--element1__element2 {
+          background-color: #20202a;
+          border-radius: 3vh;
+          height: 6vh;
+          width: 3vw; }
+          .radialSkillDiv--setA__div3--element1__element2__element3 {
+            background-color: #20202a;
+            color: #f8f8fa;
+            height: 4vh;
+            width: 2vw; }
+
+.someMoreInformation {
+  background-color: #20202a;
+  height: 22.5vh;
+  width: 20vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Source Code Pro", monospace;
+  border-top: 2px solid #737378; }
+  .someMoreInformation__keyValue {
+    font-size: 12.5px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px; }
+    .someMoreInformation__keyValue--key {
+      color: #f8f8fa; }
+    .someMoreInformation__keyValue--value {
+      color: #737378; }
+
+.engHin {
+  background-color: #242430;
+  font-family: "Source Code Pro", monospace;
+  font-size: 12.5px;
+  height: 20vh;
+  width: 5vw;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: capitalize; }
+  .engHin--div1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: #191923;
+    color: #f8f8fa; }
+  .engHin--div2 {
+    background-color: #ffc107;
+    color: #191923;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px; }
+
+.main {
+  height: 96vh;
+  margin: 2vh 3vw;
+  width: 94vw; }
+  .main__sectionA {
+    height: 96vh;
+    width: 20vw; }
+    .main__sectionA__scrollSectionA {
+      height: 52.5vh;
+      width: 20vw;
+      overflow: scroll; }
+    .main__sectionA__scrollSectionA::-webkit-scrollbar {
+      display: none; }
+  .main__sectionB__static {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #1f1f28), url(/Images/image01.jpg);
+    background-position: top;
+    background-size: 150vh;
+    background-size: cover;
+    height: 96vh;
+    width: 69vw;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+    z-index: -10; }
+  .main__sectionB__scrollSectionB {
+    height: 96vh;
+    width: 69vw;
+    overflow: scroll; }
+    .main__sectionB__scrollSectionB .general {
+      height: 10vh;
+      width: 69vw;
+      font-size: 10px;
+      justify-content: space-around;
+      color: #f8f8fa;
+      padding: 1vh; }
+      .main__sectionB__scrollSectionB .general--set1 {
+        justify-content: space-evenly;
+        width: 23vw;
+        text-align: center;
+        align-items: center; }
+        .main__sectionB__scrollSectionB .general--set1--div1 {
+          font-family: "Press Start 2P", cursive;
+          font-size: 20px;
+          color: #ffc107; }
+        .main__sectionB__scrollSectionB .general--set1--div2 {
+          font-family: "Source Code Pro", monospace;
+          font-size: 20px; }
+      .main__sectionB__scrollSectionB .general--set2 {
+        justify-content: space-evenly;
+        width: 23vw;
+        text-align: center;
+        align-items: center; }
+        .main__sectionB__scrollSectionB .general--set2--div3 {
+          color: #ffc107;
+          font-family: "Press Start 2P", cursive;
+          font-size: 20px; }
+        .main__sectionB__scrollSectionB .general--set2--div4 {
+          font-family: "Source Code Pro", monospace;
+          font-size: 20px; }
+      .main__sectionB__scrollSectionB .general--div5 {
+        color: #ffc107;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: "Press Start 2P", cursive;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        width: 23vw; }
+    .main__sectionB__scrollSectionB .myDomain {
+      color: #f8f8fa;
+      display: flex;
+      font-family: "Source Code Pro", monospace;
+      font-size: 20px;
+      height: 5vh;
+      width: 69vw;
+      padding-left: 37px;
+      align-items: flex-end; }
+  .main__sectionB__scrollSectionB::-webkit-scrollbar {
+    display: none; }
+  .main__sectionC {
+    background-color: green;
+    height: 96vh;
+    width: 5vw; }
+    .main__sectionC__block1 {
+      height: 10vh;
+      width: 5vw;
+      background-color: #24242f;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center; }
+      .main__sectionC__block1__set1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 2.5vh;
+        width: 2vw;
+        background-color: transparent;
+        transition: transform 2s; }
+        .main__sectionC__block1__set1:hover > .main__sectionC__block1__set1__div1 {
+          transform: rotate(45deg) translate(6px, 3px); }
+        .main__sectionC__block1__set1:hover > .main__sectionC__block1__set1__div2 {
+          display: none; }
+        .main__sectionC__block1__set1:hover > .main__sectionC__block1__set1__div3 {
+          transform: rotate(135deg) translate(-7px, 4px); }
+        .main__sectionC__block1__set1__div1 {
+          display: block;
+          height: 0.5vh;
+          width: 2vw;
+          background-color: white; }
+        .main__sectionC__block1__set1__div2 {
+          display: block;
+          height: 0.5vh;
+          width: 2vw;
+          background-color: white; }
+        .main__sectionC__block1__set1__div3 {
+          display: block;
+          height: 0.5vh;
+          width: 2vw;
+          background-color: white; }
+    .main__sectionC .home {
+      background-color: #20202a;
+      color: #f8f8fa;
+      align-items: center;
+      font-family: "Source Code Pro", monospace;
+      font-size: 12.5px;
+      height: 66vh;
+      width: 5vw;
+      padding-top: 40px;
+      writing-mode: vertical-rl;
+      text-transform: capitalize; }
